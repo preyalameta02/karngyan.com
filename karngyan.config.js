@@ -112,7 +112,7 @@ export default {
       },
       githubCalendar: {
         header: 'contributions',
-        subtext: 'github calendar heatmap'
+        subtext: 'github'
       },
       blog: {
         header: 'blog',
