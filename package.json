@@ -53,5 +53,8 @@
   },
   "resolutions": {
     "pdfjs-dist": "2.5.207"
-  }
+  },
+  "description": "<!-- PROJECT LOGO -->\r <br />\r <p align=\"center\">\r   <a href=\"https://template.karngyan.com\">\r     <img src=\"static/favicon.ico\" alt=\"Logo\" width=\"80\" height=\"80\">\r   </a>\r   <br/><br/>\r   <a href=\"https://template.karngyan.com\">\r     <img src=\"https://api.netlify.com/api/v1/badges/88476203-8c04-4a61-9be3-cdc713690283/deploy-status\" alt=\"Netlify Status\">\r   </a>",
+  "main": "gulpfile.js",
+  "license": "ISC"
 }

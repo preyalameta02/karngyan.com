@@ -1,6 +1,6 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
-export default {
+export default {  
   name: 'preyal ameta',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
   image: '/images/sphere.gif',
@@ -49,7 +49,7 @@ export default {
       {title: 'OS', value: 'Windows 11 (HSL) 22H2'},
       {title: 'Memory', value: '8 GB NVMe SSD'},
       {title: 'Keyboard', value: 'Logitech - MK235 Wireless'},
-      {title: 'Mouse', value: 'Logitech - M235 Wireless'},
+      {title: 'Mouse', value: 'Logitech - G102 Lightsync Wired'},
       //{title: 'Monitor', value: 'LG QHD (2560 x 1440) 27 Inch IPS Display'},
       {title: 'Laptop • Processor • Graphics', value: 'MSI GL65 Leopard • 2.4 GHz 4-Core Intel Core i5-9300H • NVIDIA GeForce GTX 1650 4 GB'}
     ]
