@@ -48,7 +48,7 @@ export default {
     meta: [
       {title: 'OS', value: 'Windows 11 (HSL) 22H2'},
       {title: 'Memory', value: '8 GB NVMe SSD'},
-      {title: 'Keyboard', value: 'Logitech - MK235 Wireless'},
+      {title: 'Keyboard', value: 'Cosmic Byte CB-GK-18 - Mechanical Outemu Red Switches'},
       {title: 'Mouse', value: 'Logitech - G102 Lightsync Wired'},
       //{title: 'Monitor', value: 'LG QHD (2560 x 1440) 27 Inch IPS Display'},
       {title: 'Laptop • Processor • Graphics', value: 'MSI GL65 Leopard • 2.4 GHz 4-Core Intel Core i5-9300H • NVIDIA GeForce GTX 1650 4 GB'}
@@ -59,7 +59,7 @@ export default {
     enabled: true,
     meta: [
       { name: 'GEP Worldwide', src: '/images/geplogo.png', url: 'https://www.gep.com/' },
-      //{ name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
+      { name: 'OML', src: '/images/oml_logo.png', url: 'https://oml.in/' },
       //{ name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
       //{ name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
       //{ name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
