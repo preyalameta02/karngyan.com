@@ -19,7 +19,7 @@
     </div>
 
     <div data-aos="zoom-in" class="mt-5 gap-4 mx-4 grid max-w-none lg:grid-cols-3">
-      <ProjectCard class="hover:-rotate-12" v-for="project in projectsByTechs" :key="project.slug" :project="project" />
+      <ProjectCard class="hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out" v-for="project in projectsByTechs" :key="project.slug" :project="project" />
     </div>
   </div>
 </template>

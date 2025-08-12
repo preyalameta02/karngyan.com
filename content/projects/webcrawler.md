@@ -1,8 +1,8 @@
 ---
-id: 4
+id: 5
 title: web_crawler
 description: command Line application, runs using Node.js. Crawl a Website and produce a report of the internal linking structure of the website.
-tech: node.js javascript
+tech: node.js
 logo: /images/webcrawler.png
 #website: https://karngyan.com
 github: https://github.com/preyalameta02/Web-Crawler

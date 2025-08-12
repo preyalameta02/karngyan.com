@@ -1,11 +1,11 @@
 ---
-id: 1
+id: 2
 title: Buzz
 description: Flutter application that enables students to create, discover and attend social activities and events in their college community.
-tech: flutter dart firebase
+tech: flutter firebase
 logo: /images/buzz-low-resolution-color-logo.jpeg
 website: https://drive.google.com/file/d/1_qPYnqog90BDohPeMSLkLHVYxf_qqrOi/view
-#github: https://github.com/InterviewReady
+github: https://github.com/preyalameta02/Buzz
 #twitter: gyankarn
 ---
 

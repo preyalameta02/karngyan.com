@@ -1,8 +1,8 @@
 ---
-id: 5
+id: 6
 title: weekly_newsletter
 description: Web Scraping to send weekly newsletters to multiple subscribers
-tech: bash shell
+tech: shell
 logo: /images/newsletter.png
 #website: https://karngyan.com
 github: https://github.com/preyalameta02/Weekly-Newsletter

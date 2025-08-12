@@ -1,8 +1,8 @@
 ---
-id: 7
+id: 8
 title: bookbot
 description: is a simple command-line program that reads text from a file and generates a report about the text.
-tech: python3
+tech: python
 logo: /images/bookbot.png
 #website: https://karngyan.com
 github: https://github.com/preyalameta02/bookbot

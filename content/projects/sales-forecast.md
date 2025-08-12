@@ -1,8 +1,8 @@
 ---
-id: 2
+id: 3
 title: sales forecast
 description: predictive sales analysis based on historical data of the customer
-tech: typescript node.js python angular 
+tech: typescript node.js python 
 logo: /images/saleslogo.png
 #website: https://covidhelp.page
 github: https://github.com/preyalameta02/Sales-Forecast

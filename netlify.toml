@@ -1,0 +1,31 @@
+[build]
+  publish = "dist"
+  command = "yarn generate"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[context.production]
+  command = "yarn generate"
+  publish = "dist"
+
+[context.deploy-preview]
+  command = "yarn generate"
+  publish = "dist"
+
+[context.branch-deploy]
+  command = "yarn generate"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

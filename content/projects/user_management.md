@@ -1,8 +1,8 @@
 ---
-id: 6
+id: 7
 title: user_management
 description: simplifies the process of creating local users on Ubuntu systems with enhanced security features.
-tech: bash shell
+tech: shell
 logo: /images/user.png
 #website: https://karngyan.com
 github: https://github.com/preyalameta02/user_management
