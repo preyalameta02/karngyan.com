@@ -1,20 +1,22 @@
 [build]
   publish = "dist"
-  command = "yarn generate"
+  command = "yarn install --ignore-engines && yarn generate"
 
 [build.environment]
   NODE_VERSION = "18"
+  NPM_FLAGS = "--ignore-engines"
+  NODE_OPTIONS = "--openssl-legacy-provider"
 
 [context.production]
-  command = "yarn generate"
+  command = "yarn install --ignore-engines && yarn generate"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "yarn generate"
+  command = "yarn install --ignore-engines && yarn generate"
   publish = "dist"
 
 [context.branch-deploy]
-  command = "yarn generate"
+  command = "yarn install --ignore-engines && yarn generate"
   publish = "dist"
 
 [[redirects]]
