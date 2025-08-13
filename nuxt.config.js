@@ -70,7 +70,7 @@ const nuxtConfig = {
       { name: 'title', content: `${config.name} | friendly neighborhood developer` },
       { name: 'author', content: config.name },
       { property: 'og:type', content: 'website'},
-      { property: 'og:url', content: config.social },
+      { property: 'og:url', content: config.domain },
       { property: 'og:title', content: `${config.name} | friendly neighborhood developer` },
       { property: 'og:description', content: config.strings.en_US.hero.description },
       { property: 'og:image', content: `${config.image}` },
