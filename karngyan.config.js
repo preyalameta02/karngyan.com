@@ -1,7 +1,7 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {  
-  name: 'preyal ameta',
+  name: 'Preyal Ameta',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
   image: '/images/sphere.gif',
   email: 'ameta.preyal@gmail.com',
@@ -24,9 +24,9 @@ export default {
   social: {
     github: 'preyalameta02',
     linkedin: 'preyalameta02',
-    facebook: 'preyal.ameta.3',
+    // facebook: 'preyal.ameta.3',
     //twitter: 'gyankarn',
-    instagram: 'preyal_ameta',
+    // instagram: 'preyal_ameta',
     codestats: 'pameta02' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
@@ -104,7 +104,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer. i am always learning, and tinker with side projects every now n then. I am also an avid gamer with my favourite genre being FPS.',
+        description: 'I am a software engineer with a curiosity that spins into side projects, and when I am not coding, you will probably find me on a tennis court.',
         words: ['developer', 'gamer', 'engineer', 'programmer', 'encoder'],
       },
       githubCalendar: {
