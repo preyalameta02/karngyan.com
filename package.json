@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS='--openssl-legacy-provider' nuxt",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' nuxt build",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider nuxt",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider nuxt build",
     "start": "nuxt start",
-    "generate": "NODE_OPTIONS='--openssl-legacy-provider' nuxt generate -m"
+    "generate": "cross-env NODE_OPTIONS=--openssl-legacy-provider nuxt generate -m"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
@@ -41,6 +41,7 @@
     "@nuxtjs/tailwindcss": "^4.0.3",
     "@tailwindcss/line-clamp": "^0.2.1",
     "concurrent-transform": "^1.0.0",
+    "cross-env": "^10.1.0",
     "gulp": "^4.0.2",
     "gulp-awspublish": "^4.1.2",
     "gulp-awspublish-router": "^0.2.0",

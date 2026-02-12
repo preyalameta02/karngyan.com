@@ -46,20 +46,25 @@ export default {
   uses: {
     enabled: true,
     meta: [
-      {title: 'OS', value: 'macOS 15.6'},
-      {title: 'Memory', value: '8 GB (LPDDR5 - Apple M2 Pro'},
-      {title: 'Keyboard', value: 'Cosmic Byte CB-GK-18 - Mechanical Outemu Red Switches'},
+      {title: 'OS', value: 'macOS 26.2'},
+      {title: 'Memory', value: '24 GB'},
+      {title: 'Keyboard', value: 'Aula F75 Reaper Switches'},
       {title: 'Mouse', value: 'Logitech - G102 Lightsync Wired'},
-      {title: 'Monitor', value: 'Samsung Essential Series 24 Inch Full HD VA Panel 4MS 100Hz Curved Monitor'},
-      {title: 'Machine', value: 'MacBook Pro (13-inch, 2022)• Apple M2'}
+      {title: 'Monitor', value: 'Acer Nitro VG2700U X1 27" 2K WQHD 200 Hz'},
+      {title: 'Machine', value: 'MacBook Pro (16-inch, 2024)• Apple M4 Pro'}
     ]
   },
   workedAt: {
-    // add logos in static and at max add 3/4
+    // add logos in static and at max add 3/4 
     enabled: true,
     meta: [
+      { name: 'Rapido', src: '/images/rapido.png', url: 'https://www.rapido.bike' },
+      { name: 'Elimentary', src: '/images/elimentary.png', url: 'https://www.elimentary.com/' },
       { name: 'GEP Worldwide', src: '/images/gep_logo_dark.png', url: 'https://www.gep.com/' },
       { name: 'OML', src: '/images/oml-logo.png', url: 'https://oml.in/' },
+      //{ name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
+      //{ name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
+      //{ name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
     ]
   },
   recommendations: {
